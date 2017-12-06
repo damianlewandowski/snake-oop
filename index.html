@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>Learning Webpack!</title>
+</head>
+<body>
+  <h1 class="title">Snake</h1>
+  <h2 class="score">Score: <span id="points">0</span></h2>
+  <canvas id="canvas" class="canvas">Your browser does not support the canvas element.</canvas>
+  <div id="overlay" class="overlay"></div>
+  <div id="lose-msg" class="lose-msg">
+    <div class="lose-msg-content">
+      You lost!
+      <br>
+      You scored: <span id="final-points"></span>
+      <br>
+      <button id="play-again-btn" class="play-again-btn">Play again?</button>
+    </div>
+  </div>
+  
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
